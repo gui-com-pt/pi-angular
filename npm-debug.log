@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/pink/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/home/pink/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle pi-angular@~prestart: pi-angular@
+6 silly lifecycle pi-angular@~prestart: no script for prestart, continuing
+7 info lifecycle pi-angular@~start: pi-angular@
+8 verbose lifecycle pi-angular@~start: unsafe-perm in lifecycle true
+9 verbose lifecycle pi-angular@~start: PATH: /home/pink/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/home/pink/dev/pi-angular/node_modules/.bin:/home/pink/.rbenv/plugins/ruby-build/bin:/home/pink/.rbenv/shims:/home/pink/.rbenv/bin:/home/pink/.nvm/versions/node/v5.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle pi-angular@~start: CWD: /home/pink/dev/pi-angular
+11 silly lifecycle pi-angular@~start: Args: [ '-c', 'gulp build && simple-server demo 8080' ]
+12 info lifecycle pi-angular@~start: Failed to exec start script
+13 verbose stack Error: pi-angular@ start: `gulp build && simple-server demo 8080`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/home/pink/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:818:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid pi-angular@
+15 verbose cwd /home/pink/dev/pi-angular
+16 error Linux 4.4.0-21-generic
+17 error argv "/home/pink/.nvm/versions/node/v5.0.0/bin/node" "/home/pink/.nvm/versions/node/v5.0.0/bin/npm" "run" "start"
+18 error node v5.0.0
+19 error npm  v3.3.6
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error pi-angular@ start: `gulp build && simple-server demo 8080`
+24 error spawn ENOENT
+25 error Failed at the pi-angular@ start script 'gulp build && simple-server demo 8080'.
+25 error This is most likely a problem with the pi-angular package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     gulp build && simple-server demo 8080
+25 error You can get their info via:
+25 error     npm owner ls pi-angular
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

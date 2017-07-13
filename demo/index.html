@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="angular.js" type="text/javascript"></script>
+    <script src="dependencies.js" type="text/javascript"></script>
+    <script src="pi-angular.js" type="text/javascript"></script>
+    <script>
+    (function(){
+    	angular
+    		.module('demo', ['pi']);
+    	angular
+    		.module('demo')
+    		.run(['$rootScope',
+    			function($rootScope) {
+    				$rootScope.message = "This message";
+    			}]);
+
+
+    })();
+      
+    </script>
+  </head>
+  <body ng-app="demo">
+  {{$root.message}}
+  </body>
+</html>

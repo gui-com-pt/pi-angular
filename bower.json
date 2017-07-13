@@ -1,0 +1,38 @@
+{
+  "name": "pi-angular",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-bindonce": "~0.3.1",
+    "angular-cache": "~2.3.3",
+    "angular-ui-select2": "~0.0.5",
+    "angular-ui-sortable": "~0.12.6",
+    "angular-route": "~1.2.16",
+    "angular-resource": "~1.2.16",
+    "angular-sanitize": "~1.2.16",
+    "angular-animate": "~1.2.16",
+    "jquery": "~2.1.0",
+    "angular-mocks": "^1.5.3",
+    "moment": "~2.6.0",
+    "underscore": "~1.6.0",
+    "moment-timezone": "~0.2.2",
+    "angular-ui-router": "^0.2.18"
+  },
+  "ignore": [
+    "bower_components/",
+    "node_modules/",
+    "build/",
+    "tests/",
+    "tests-old/",
+    "assets",
+    "docs",
+    "src",
+    "tasks"
+  ],
+  "devDependencies": {
+    "ui-utils": "~0.1.1"
+  },
+  "resolutions": {
+    "angular": "^1.5.3"
+  }
+}

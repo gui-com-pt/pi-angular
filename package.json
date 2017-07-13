@@ -1,0 +1,13 @@
+{
+  "name": "pi-angular",
+  "scripts": {
+  	"build": "gulp build",
+  	"start": "gulp build && simple-server demo 8080"
+  },
+  "dependencies": {
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {}
+}
